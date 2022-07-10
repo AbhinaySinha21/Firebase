@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <h1>Contact Us</h1>
+        <br /><br />
+        <div class="input-type">
+          <input type="text" name="first" id="sec-1" placeholder="Name" />
+          <br /><br />
+          <input type="email" name="second" id="sec-2" placeholder="email" />
+          <br /><br />
+          <input
+            type="text"
+            name="third"
+            id="sec-3"
+            placeholder="Message"
+            required
+          />
+        </div>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <script type="module" src="./firebaseConfig.js"></script>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

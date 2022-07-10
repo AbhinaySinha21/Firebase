@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, blue,green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+form{
+    width:30%;
+    height:60%;
+    background-color: white;
+}
+input[type="text"],input[type="email"]{
+    width:80%;
+    margin-left: 50px;
+}
+input[name="first"],input[type="email"]{
+    padding: 8px;
+}
+input[name="third"]{
+    padding: 8px 8px 70px 8px;
+}
+button{
+    padding: 15px 30px;
+    margin: 20px auto 0 190px;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: blueviolet;
+}
